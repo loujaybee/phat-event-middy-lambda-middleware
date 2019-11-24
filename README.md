@@ -2,6 +2,8 @@
 
 A middlware in middy format that bootstraps phatEvent in an opinionated way. 
 
+For more about phat-event check out [phat-event](https://github.com/loujaybee/phat-event)
+
 What it does:
 
 * Adds lambda "event" object to phat event
@@ -32,8 +34,6 @@ module.exports = { handler }
 
 The resultant phat event is: 
 
-Onsuccess
-
 ```javascript
 {
   event: ...,
@@ -45,8 +45,6 @@ Onsuccess
 ### onFailure
 
 The resultant phat event is: 
-
-Onsuccess
 
 ```javascript
 {
